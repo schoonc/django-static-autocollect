@@ -17,7 +17,7 @@ setup(
     author_email='andrey@rusanov.me',
     packages=find_packages(),
     install_requires=[
-        'Django >= 1.6',
+        'Django < 1.5',
         'watchdog == 0.8.3'
     ],
     requires=[
